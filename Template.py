@@ -1,4 +1,4 @@
 with open("input.txt") as f:
-    input_lines = f.read().strip().split("\n");
+    input_lines = f.read().strip().split("\n")
 
-print(input_lines);
+print(input_lines)
