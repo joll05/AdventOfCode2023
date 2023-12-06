@@ -30,7 +30,7 @@ c = t/2 +- sqrt((t/2)^2 - d)
 c = t/2 +- sqrt(t^2/4 - d)
 
 c_min = t/2 - sqrt(t^2/4 - d)
-c_max = t/2 - sqrt(t^2/4 - d)
+c_max = t/2 + sqrt(t^2/4 - d)
 
 If you plug in the total race time and the record distance, you get a minimum and maximimum charge time
 To make them into integer results, ceil min and floor max
