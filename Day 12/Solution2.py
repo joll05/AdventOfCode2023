@@ -37,6 +37,5 @@ result = 0
 
 for i, (springs, groups) in enumerate(inputs):
     result += possible_arrangements(((springs + (0,)) * 5)[:-1], groups * 5)
-    print(i)
 
 print(result)
